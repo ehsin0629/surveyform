@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="surveyform.css">
+<h1 id="title">Favorite Game Survey Form </h1>
+  <p id= "description"> Enter your information. </p>
+  <div id="body">
+  <form id="survey-form">
+    <label id="name-label">
+    <p> Name: </p>
+      </label>
+    <input id="name" type="text" placeholder ="Enter your name" required>
+    <label id="email-label" for="email">
+    <p>Email: </p>
+    <input id="email"type="email"placeholder ="Enter your Email" required>
+    </label>
+    <label id="number-label" for="number">
+    <p>Age:</p>
+    <input id="number" type="number" placeholder ="Age" min="10" max="80" required>
+      <p>
+        What is your favorite game?
+      </p>
+
+      <select id="dropdown">
+        <option value="default"> </option>
+        <option value="default"> Grand Theft Auto 5</option>
+        <option value="default"> Counter-Strike: Global Offensive</option>
+        <option value="default"> The Elder Scrolls V: Skyrim</option>
+        <option value="default"> PAYDAY 2</option>
+        <option value="default"> League of Legends</option>
+        <option value="default"> Valorant</option>
+        <option value="default"> Overwatch</option>
+        <option value="default"> PlayerUnknown's Battlegrounds</option>
+          <option value="default"> Apex Legends</option>
+          <option value="default"> Fortnite</option>
+        <option value="default"> World of Warcraft</option>
+        <option value="default"> Dota 2</option>
+
+
+      </select>
+
+      <p> Why is this your favorite game? 
+      </p>
+
+      <input type ="radio" name="drink" value="1"> Because it's fun</input>
+    <br>
+    <input type ="radio" name="drink" value="2"> Because my friends play it</input>
+  <br>
+  <input type ="radio" name="drink" value="3"> Because it makes me happy</input>
+  <br>
+  <input type ="radio" name="drink" value="3"> Because it's relaxing</input>
+  <br>
+  <input type ="radio" name="drink" value="4">Other<input type="text" name="other reason"/>
+
+
+  <p> What other games do you like?</p>
+  <input type="checkbox" name="games" value="1"> Among Us</input>
+  <br>
+  <input type="checkbox" name="games" value="1"> Fall Guys</input>
+  <br>
+  <input type="checkbox" name="games" value="1"> Minecraft</input>
+  <br>
+  <input type="checkbox" name="games" value="1"> Hearthstone</input>
+  <br>
+  <input type="checkbox" name="games" value="1"> Teamfight Tactics</input>
+  <br>
+
+  <p>
+    Enter your favorite games:
+  </p>
+
+  <textarea id= "comment" rows="4" cols="40">
+  </textarea>
+  <input id="submit" type="Submit" value="Submit">
+  <p> Thank you for taking the time to fill out this survey :) </p>
+
+  </form>
+  </div>
+  </html>
